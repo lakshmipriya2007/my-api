@@ -7,6 +7,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to my API!" });
 });
 
+
 app.listen(PORT, () => {
-  console.log("Server running on port " + PORT);
+  console.log(`Server running on port ${PORT}`);
 });
